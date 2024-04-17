@@ -1,5 +1,5 @@
 <script setup>
-
+    const pokemon = defineProps("name")
 </script>
 
 <template>
