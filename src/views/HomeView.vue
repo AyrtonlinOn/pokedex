@@ -32,11 +32,7 @@ onMounted(() => {
         </div>
         <div class="col-sm-12 col-md-6">
           <div class="card" style="width: 18rem">
-            <ul class="list-group">
-              <li class="list-group-item" v-for="pokemon in pokemons" :key="pokemon.name">
-                {{ pokemon.name }}
-              </li>
-            </ul>
+            <ListPokemons />
           </div>
         </div>
       </div>
