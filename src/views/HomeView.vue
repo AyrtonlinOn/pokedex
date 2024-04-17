@@ -1,6 +1,7 @@
 <script setup>
 //props - onMounted, reactive, ref
 import { onMounted, reactive, ref } from 'vue';
+import ListPokemons from '../components/ListPokemons.vue';
 
 let pokemons = reactive(ref())
 
