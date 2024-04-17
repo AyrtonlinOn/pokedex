@@ -32,7 +32,7 @@ import {ref} from 'vue'
 
   <footer class="bg-dark text-light">
     <div>
-      Unimar | ADS | {{ new Date().getFullYear() }}
+      Unimar | ADS | {{ new Date().getFullYear() }} 
     </div>
   </footer>
 </template>
