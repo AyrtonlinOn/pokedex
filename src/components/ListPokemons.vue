@@ -1,7 +1,7 @@
 <script setup>
     const pokemon = defineProps(["name", "url"])
     const idPokemon = pokemon.url.split('/')[6]
-    const imageUrl = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/" + idPokemon +".svg"
+    const imageUrl = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/" + idPokemon +".svg"
     
 </script>
 
