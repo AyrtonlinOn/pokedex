@@ -7,7 +7,7 @@
 
 <template>
     <div class="col-md-4">
-        <div class="card mb-3">
+        <div class="card mb-3 p-2">
             <img :src="imageUrl" class="card-img-top" heigth="80" alt="...">
             <div class="card-body">
                 <p class="card-title text-center">{{ pokemon.name }}</p>
